@@ -1,1 +1,22 @@
-.nav-container {}
+.nav-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 60px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav {
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav:hover {
+    cursor: pointer;
+    background-color: rgb(240, 188, 111);
+    border-radius: 10px;
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "David Mike",
+        "comment": 100000,
+        "rating": 4.5,
+        "id": 1
+    },
+    {
+        "name": "Danny kauf",
+        "comment": 200000,
+        "rating": 4,
+        "id": 2
+    },
+    {
+        "name": "Jivesh Ramaden",
+        "comment": 500000,
+        "rating": 5,
+        "id": 3
+    },
+    {
+        "name": "Raul Harnandez",
+        "comment": 500000,
+        "rating": 4,
+        "id": 4
+    },
+    {
+        "name": "Marry Angela",
+        "comment": 600000,
+        "rating": 4.5,
+        "id": 5
+    },
+    {
+        "name": "Katherina Wegenhiem",
+        "comment": 700000,
+        "rating": 4.5,
+        "id": 6
+    }
+]

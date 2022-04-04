@@ -3,7 +3,7 @@ import './Blogs.css'
 
 const Blogs = () => {
     return (
-        <div>
+        <div className='blog-container'>
             <h1>What is Context API?</h1>
             <p> Context API is a process to send data one component to another. It is a system which avoid props and tree system. For example, if we want to send data from grand-father component to children component, we have to send data to father first. In case of context API, we can send data directly children without father component. To create contex api we use createContex() and then enclose our components with .Provider. useContex is used to get the data.</p>
             <br />

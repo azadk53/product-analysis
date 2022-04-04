@@ -1,0 +1,8 @@
+.review-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}

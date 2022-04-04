@@ -1,0 +1,38 @@
+[
+    {
+        "name": "David Mike",
+        "comment": "My daughter and I wanted to get a smartwatch. I chose this model because I like it simple and still prefer a slightly larger screen. I think the watch looks great. I've been wearing them for almost 2 weeks now. I only needed the description to download the app. Overall I am very satisfied so far!",
+        "rating": 4.5,
+        "id": 1
+    },
+    {
+        "name": "Danny kauf",
+        "comment": "Charged, app installed and everything works great. It's nice that you can choose your motif from several displays. I didn't count them, but there are easily over 50. Easy to use, battery is dead after 24 Hours used minimally, good view of the display, in all light conditions. It's really good, you can buy it.",
+        "rating": 4,
+        "id": 2
+    },
+    {
+        "name": "Jivesh Ramaden",
+        "comment": "I bought the watch to be able to quickly look at it at work at any time. The watch is definitely waterproof. The touch works simply and smoothly. The brightness is always wonderfully adjusted, so that you can always read the time very well. The watch is definitely worth the money.",
+        "rating": 5,
+        "id": 3
+    },
+    {
+        "name": "Raul Harnandez",
+        "comment": "Great look, works perfectly in connection with the APP; Watch battery lasts super long (at least 1 week); is quickly recharged; The only drawback is the rubber strap, but I replaced that with a leather strap. clear purchase recommendation",
+        "rating": 4,
+        "id": 4
+    },
+    {
+        "name": "Marry Angela",
+        "comment": "Fast delivery. Very nice watch. I bought it in pink and am super happy with the color. Setup was quick and easy. The functions work very well. I haven't tested the water resistance yet. Clear buy recommendation from me.",
+        "rating": 4.5,
+        "id": 5
+    },
+    {
+        "name": "Katherina Wegenhiem",
+        "comment": "For me the most important function is the pedometer and it works well. I want to keep my 10,000 steps a day and with the smartwatch I can now monitor my physical activity and increase it if necessary.",
+        "rating": 4.5,
+        "id": 6
+    }
+]

@@ -11,7 +11,7 @@ const DashBoard = () => {
     }, [])
     return (
         <div className='dashboard-container'>
-            <div>
+            <div className='graph'>
                 <AreaChart width={630} height={250} data={data}
                     margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                     <defs>
@@ -24,7 +24,7 @@ const DashBoard = () => {
                             <stop offset="95%" stopColor="#82ca9d" stopOpacity={0} />
                         </linearGradient>
                     </defs>
-                    <XAxis dataKey="name" />
+                    <XAxis dataKey="month" />
                     <YAxis />
                     <CartesianGrid strokeDasharray="3 3" />
                     <Tooltip />
@@ -32,10 +32,10 @@ const DashBoard = () => {
                     <Area type="monotone" dataKey="revenue" stroke="#82ca9d" fillOpacity={1} fill="url(#colorRevenue)" />
                 </AreaChart>
             </div>
-            <div>
+            <div className='graph'>
                 <BarChart width={630} height={250} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="name" />
+                    <XAxis dataKey="month" />
                     <YAxis />
                     <Tooltip />
                     <Legend />
@@ -43,16 +43,16 @@ const DashBoard = () => {
                     <Bar dataKey="revenue" fill="#82ca9d" />
                 </BarChart>
             </div>
-            <div>
+            <div className='graph'>
                 <LineChart width={730} height={250} data={data}
                     margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                     <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="name" />
+                    <XAxis dataKey="month" />
                     <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Line type="monotone" dataKey="investment" stroke="#8884d8" />
-                    <Line type="monotone" dataKey="revenue" stroke="#82ca9d" />
+                    <Line type="monotone" dataKey="sell" stroke="#8884d8" />
+
                 </LineChart>
             </div>
         </div>

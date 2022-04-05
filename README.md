@@ -1,12 +1,12 @@
 # Watch Corner 
-This project's Live link []()
+This project's Live link [https://watchcorne.netlify.app/](https://watchcorne.netlify.app/)
 
 ## Project Description
 
--React router is used
--Custom hook is used 
--Rechart is used
--Vanilla CSS is used
+- React router is used
+- Custom hook is used 
+- Rechart is used
+- Vanilla CSS is used
 
 
 # Getting Started with Create React App

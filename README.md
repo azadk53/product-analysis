@@ -1,3 +1,14 @@
+# Watch Corner 
+This project's Live link []()
+
+## Project Description
+
+-React router is used
+-Custom hook is used 
+-Rechart is used
+-Vanilla CSS is used
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -26,7 +26,9 @@ const Home = () => {
                     reviews.slice(0, 3).map(review => <HomeReview review={review}></HomeReview>)
                 }
             </div>
-            <button onClick={() => navigate('/reviews')}>Read all Reviews</button>
+            <div className='btn'>
+                <button onClick={() => navigate('/reviews')}>Read all Reviews</button>
+            </div>
 
         </div>
     );
